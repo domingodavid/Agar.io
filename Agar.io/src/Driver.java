@@ -30,7 +30,7 @@ public class Driver extends JPanel implements ActionListener, MouseMotionListene
 		
 		//this part makes sure the x button closes the program
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+		frame.addMouseMotionListener(this);
 		//Animation Timer
 		Timer t = new Timer(16,this);
 		t.start();
